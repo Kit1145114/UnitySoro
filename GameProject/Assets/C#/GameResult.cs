@@ -40,7 +40,6 @@ public class GameResult : MonoBehaviour
 
     public void OnRetry()
     {
-        SceneManager.LoadScene(
-            SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("SecondScene");
     }
 }

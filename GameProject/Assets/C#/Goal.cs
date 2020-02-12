@@ -15,6 +15,7 @@ public class Goal : MonoBehaviour
     {
         if(col.gameObject.tag == "Player")
         {
+            //Debug.Log("goal");
             goal = true;
         }
     }
